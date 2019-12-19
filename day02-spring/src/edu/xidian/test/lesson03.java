@@ -11,7 +11,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.FileSystemResource;
 
-
+/**
+ * 03.装配bean的三种方式讲解
+ */
 public class lesson03 {
     @Test
     public void test1() {

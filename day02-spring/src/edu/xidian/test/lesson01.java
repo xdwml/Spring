@@ -12,6 +12,9 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.core.ResolvableType;
 import org.springframework.core.io.FileSystemResource;
 
+/**
+ * 01.Spring容器创建的三种方式讲解
+ */
 public class lesson01 {
     @Test
     public void test1() {

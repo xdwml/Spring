@@ -5,7 +5,9 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
+/**
+ * 04.bean的作用域讲解
+ */
 public class lesson04 {
     @Test
     public void test1() {

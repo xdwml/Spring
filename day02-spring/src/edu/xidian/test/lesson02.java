@@ -8,7 +8,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.FileSystemResource;
 
-
+/**
+ * 02.BeanFactory和ApplicationContext对比讲解
+ */
 public class lesson02 {
     @Test
     public void test1() {
