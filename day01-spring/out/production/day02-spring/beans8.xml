@@ -17,7 +17,7 @@
         <property name="name" value="西安"></property>
     </bean>
     <bean id="customer" class="edu.xidian.model.Customer">
-        <property name="name" value="#{address.name}"></property>
+        <property name="name" value="#{'wml'.toUpperCase()}"></property>
         <!--Math.PI 调用静态方法-->
         <property name="pi" value="#{T(java.lang.Math).PI}"></property>
         <!--
