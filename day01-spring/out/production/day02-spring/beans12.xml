@@ -2,19 +2,17 @@
 <!--xmlns xml namespace:xml命名空间-->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
-       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p ="http://www.springframework.org/schema/p"
+       xmlns:context ="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <!--1.在类中声明@Component相当于配置了
-        <bean id="userService" class="edu.xidian.service.UserServiceImpl"></bean>
-    -->
-    <!--<bean id="userService" class="edu.xidian.service.UserServiceImpl"></bean>-->
-    <!--2注解方式-->
-    <!--开启注解-->
+
+    <!-- 开启注解-->
     <context:annotation-config/>
-    <!--注解的位置-->
+    <!-- 注解的位置-->
     <context:component-scan base-package="edu.xidian"/>
+
+
 </beans>

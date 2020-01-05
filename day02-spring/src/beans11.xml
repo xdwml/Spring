@@ -8,13 +8,21 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <!--1.在类中声明@Component相当于配置了
-        <bean id="userService" class="edu.xidian.service.UserServiceImpl"></bean>
-    -->
-    <!--<bean id="userService" class="edu.xidian.service.UserServiceImpl"></bean>-->
+    <!--1.配置dao-->
+    <bean id="userDao" class="edu.xidian.dao.UserDaoImpl">
+
+    </bean>
+    <!--2.配置service-->
+    <bean id="userService" class="edu.xidian.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+    <!--3.配置action-->
+    <bean id="userAction" class="edu.xidian.web.action.UserAction">
+        <property name="userService" ref="userService"></property>
+    </bean>
     <!--2注解方式-->
     <!--开启注解-->
-    <context:annotation-config/>
+    <!--<context:annotation-config></context:annotation-config>-->
     <!--注解的位置-->
-    <context:component-scan base-package="edu.xidian"/>
+    <!--<context:component-scan base-package="edu.xidian"></context:component-scan>-->
 </beans>
