@@ -5,7 +5,9 @@ import edu.xidian.web.action.UserAction;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+/**
+ * 注解注入-案例3-2
+ */
 public class lesson12 {
 
     @Test

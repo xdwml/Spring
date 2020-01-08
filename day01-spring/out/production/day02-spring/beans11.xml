@@ -9,15 +9,15 @@
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
     <!--1.配置dao-->
-    <bean id="userDao" class="edu.xidian.dao.UserDaoImpl">
+    <bean id="userDao" class="edu.xidian.dao.UserDaoImpl3">
 
     </bean>
     <!--2.配置service-->
-    <bean id="userService" class="edu.xidian.service.UserServiceImpl">
+    <bean id="userService" class="edu.xidian.service.UserServiceImpl3">
         <property name="userDao" ref="userDao"></property>
     </bean>
     <!--3.配置action-->
-    <bean id="userAction" class="edu.xidian.web.action.UserAction">
+    <bean id="userAction" class="edu.xidian.web.action.UserAction3">
         <property name="userService" ref="userService"></property>
     </bean>
     <!--2注解方式-->

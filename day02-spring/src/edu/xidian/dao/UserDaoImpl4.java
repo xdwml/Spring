@@ -3,10 +3,10 @@ package edu.xidian.dao;
 import edu.xidian.model.User;
 import org.springframework.stereotype.Repository;
 
-
-public class UserDaoImpl implements UserDao{
+@Repository
+public class UserDaoImpl4 implements UserDao{
     @Override
     public void add(User user) {
-        System.out.println("dao 添加用户:" + user);
+        System.out.println("Dao 添加用户:" + user);
     }
 }

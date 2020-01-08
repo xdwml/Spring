@@ -6,6 +6,8 @@
         <fileset id="fileset" name="Beans" removed="false">
           <file>file://$MODULE_DIR$/beans.xml</file>
           <file>file://$MODULE_DIR$/src/beans12.xml</file>
+          <file>file://$MODULE_DIR$/src/beans10.xml</file>
+          <file>file://$MODULE_DIR$/src/beans11.xml</file>
         </fileset>
       </configuration>
     </facet>

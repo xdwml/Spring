@@ -2,6 +2,7 @@ package edu.xidian.model;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
+import org.springframework.stereotype.Component;
 
 public class User implements BeanNameAware,BeanFactoryAware,InitializingBean,DisposableBean{
     private String username;

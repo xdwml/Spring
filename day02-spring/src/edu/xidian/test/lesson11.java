@@ -2,11 +2,13 @@ package edu.xidian.test;
 
 import edu.xidian.model.User;
 import edu.xidian.service.UserService;
-import edu.xidian.web.action.UserAction;
+import edu.xidian.web.action.UserAction3;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+/**
+ * 注解注入-案例3-1
+ */
 public class lesson11 {
     @Test
     public void test1() throws Exception {
@@ -24,6 +26,11 @@ public class lesson11 {
         userService.add(user);
 
     }
+
+    /**
+     * 案例3
+     * @throws Exception
+     */
     @Test
     public void test2() throws Exception {
         /**
@@ -32,12 +39,12 @@ public class lesson11 {
          */
         //拿到action
         ApplicationContext context=new ClassPathXmlApplicationContext("beans11.xml");
-        UserAction userAction = (UserAction) context.getBean("userAction");
+        UserAction3 userAction = (UserAction3) context.getBean("userAction");
         //添加用户
-        /*User user=new User();
+        User user=new User();
         user.setUsername("wml");
         user.setPassword("123456");
-        userAction.save(user);*/
+        userAction.save(user);
 
     }
 
