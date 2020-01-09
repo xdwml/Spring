@@ -28,15 +28,12 @@ public class lesson11 {
     }
 
     /**
-     * 案例3
+     * 案例3 没有用注解的时候
      * @throws Exception
      */
     @Test
     public void test2() throws Exception {
-        /**
-         * 注解的使用
-         * Web 开发流程 action ->service -> dao
-         */
+
         //拿到action
         ApplicationContext context=new ClassPathXmlApplicationContext("beans11.xml");
         UserAction3 userAction = (UserAction3) context.getBean("userAction");

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * 注解注入-案例1&2
  */
 //@Component//案例1 Component没配置id
-@Component("userService")// 案例2 Component配置id
+//@Component("userService")// 案例2 Component配置id
 public class UserServiceImpl12 implements UserService {
 
 
