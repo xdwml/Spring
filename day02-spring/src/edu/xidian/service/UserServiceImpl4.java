@@ -1,13 +1,12 @@
 package edu.xidian.service;
 
 import edu.xidian.dao.UserDao;
-import edu.xidian.dao.UserDaoImpl4;
 import edu.xidian.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 //案例3
-@Service  //表示Service层
+//@Service
 public class UserServiceImpl4 implements UserService {
 
     @Autowired //spring会自动注入userDao赋值
@@ -24,11 +23,11 @@ public class UserServiceImpl4 implements UserService {
 
     @Override
     public void add() {
-        System.out.println("创建用户：" + name);
+        System.out.println("4创建用户：" + name);
     }
     @Override
     public void add(User user) {
-        System.out.println("service 添加用户:" + user);
+        System.out.println("service4 添加用户:" + user);
         //调用dao
         userDao.add(user);
     }

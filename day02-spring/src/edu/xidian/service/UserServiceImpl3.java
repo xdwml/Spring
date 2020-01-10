@@ -33,11 +33,11 @@ public class UserServiceImpl3 implements UserService {
 
     @Override
     public void add() {
-        System.out.println("创建用户：" + name);
+        System.out.println("3创建用户：" + name);
     }
     @Override
     public void add(User user) {
-        System.out.println("service 添加用户:" + user);
+        System.out.println("service3 添加用户:" + user);
         //调用dao
         userDao.add(user);
     }

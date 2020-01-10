@@ -5,6 +5,7 @@ import edu.xidian.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
+
 //案例3
 @Controller  //表示控制层
 public class UserAction4 {
@@ -13,7 +14,7 @@ public class UserAction4 {
     private UserService userService;
 
     public void save(User user){
-        System.out.println("Action save方法 ");
+        System.out.println("Action4 save方法 ");
 
         //保存
         userService.add(user);

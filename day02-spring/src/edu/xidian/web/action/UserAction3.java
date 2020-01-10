@@ -16,7 +16,7 @@ public class UserAction3 {
     }
 
     public void save(User user){
-        System.out.println("Action save方法 ");
+        System.out.println("Action3 save方法 ");
 
         //保存
         userService.add(user);

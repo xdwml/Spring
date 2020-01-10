@@ -1,10 +1,6 @@
 package edu.xidian.service;
 
-import edu.xidian.dao.UserDao;
 import edu.xidian.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 public class UserServiceImpl implements UserService {
     private String name;
@@ -16,13 +12,13 @@ public class UserServiceImpl implements UserService {
     }
     @Override
     public void add() {
-        System.out.println("创建用户：" + name);
+        System.out.println("0创建用户：" + name);
     }
     @Override
     public void add(User user) {
-        System.out.println("service 添加用户:" + user);
+        System.out.println("service0 添加用户:" + user);
     }
     public UserServiceImpl() {
-        System.out.println("UserServiceImpl被调用了");
+        System.out.println("UserServiceImpl0被调用了");
     }
 }
