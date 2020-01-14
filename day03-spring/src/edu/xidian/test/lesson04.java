@@ -4,9 +4,6 @@ import edu.xidian.service.IUserService;
 import edu.xidian.service.MyBeanFactory;
 import org.junit.Test;
 
-/**
- * 注解注入-案例4
- */
 public class lesson04 {
     @Test
     public void test1() throws Exception {

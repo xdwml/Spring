@@ -15,7 +15,7 @@
       <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="0">
               <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
@@ -25,16 +25,9 @@
       <file leaf-file-name="IUserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="624">
               <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +35,7 @@
       <file leaf-file-name="MyAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="240">
               <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
@@ -57,8 +50,8 @@
       <file leaf-file-name="MyBeanFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="207">
+              <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson04.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson04.java">
+      <file leaf-file-name="lesson05.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson05.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="312">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#125#126#0" expanded="true" />
@@ -111,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../day02-spring/src/edu/xidian/test/lesson08.java" />
         <option value="$PROJECT_DIR$/../day02-spring/src/beans8.xml" />
         <option value="$PROJECT_DIR$/../day02-spring/src/edu/xidian/model/Programmer.java" />
         <option value="$PROJECT_DIR$/../day02-spring/src/beans9.xml" />
@@ -159,9 +151,10 @@
         <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/UserServiceFactory.java" />
         <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserService.java" />
         <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyBeanFactory.java" />
-        <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson04.java" />
         <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson04.java" />
+        <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson05.java" />
       </list>
     </option>
   </component>
@@ -233,6 +226,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,10 +320,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,9 +335,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\Spring\day03-spring\src\edu\xidian\service" />
+      <recent name="E:\IDEA\Spring\day03-spring\src\edu\xidian\dao" />
+      <recent name="E:\IDEA\Spring\day03-spring\src" />
+      <recent name="E:\IDEA\Spring\day03-spring" />
       <recent name="E:\IDEA\Spring\day02-spring\src" />
-      <recent name="E:\IDEA\Spring\day02-spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.xidian.test" />
@@ -353,12 +349,9 @@
       <recent name="edu.xidian.web.action" />
       <recent name="edu.xidian.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA\Spring\day03-spring\src\edu\xidian\service" />
-      <recent name="E:\IDEA\Spring\day03-spring\src\edu\xidian\dao" />
-      <recent name="E:\IDEA\Spring\day03-spring\src" />
-      <recent name="E:\IDEA\Spring\day03-spring" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IDEA\Spring\day02-spring\src" />
+      <recent name="E:\IDEA\Spring\day02-spring" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,7 +366,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.lesson04.test1">
+  <component name="RunManager" selected="JUnit.lesson05.test1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -465,19 +458,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="lesson11.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson05.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="edu.xidian.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="day02-spring" />
+      <module name="day03-spring" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.xidian.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson11" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson05" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -581,19 +574,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.lesson11.test2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.lesson12.test1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.lesson13.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.lesson01.test1" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.lesson04.test1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.lesson12.test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.lesson13.test1" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.lesson01.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.lesson04.test1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.lesson05.test1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.lesson04.test1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.lesson01.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.lesson12.test1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.lesson13.test1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.lesson11.test2" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.lesson05.test1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.lesson04.test1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.lesson01.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.lesson12.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.lesson13.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -630,30 +623,31 @@
       <workItem from="1578633472485" duration="6278000" />
       <workItem from="1578704640674" duration="2880000" />
       <workItem from="1578924920363" duration="891000" />
+      <workItem from="1579011023593" duration="1783000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 01m 41s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 02m 32s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 05m 35s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 06m 09s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 09m 10s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="lesson04_test1 - 2020.01.11 at 10h 10m 11s.xml">
-      <configuration name="lesson04.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="lesson04_test1 - 2020.01.13 at 22h 23m 16s.xml">
       <configuration name="lesson04.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 30m 27s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 31m 17s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 31m 50s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 32m 00s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 37m 41s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="lesson05_test1 - 2020.01.14 at 22h 38m 32s.xml">
+      <configuration name="lesson05.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="lesson12_test1 - 2020.01.10 at 14h 19m 16s.xml">
       <configuration name="lesson12.test1" configurationId="JUnit" />
@@ -666,7 +660,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53523000" />
+    <option name="totallyTimeSpent" value="55306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -685,7 +679,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14872068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15938166" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -744,10 +738,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/service/UserServiceFactory2.java" />
-    <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/model/Programmer.java" />
-    <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/test/lesson03.java" />
     <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/test/lesson02.java" />
     <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/dao/UserDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/../day03-spring/day02-spring/src/edu/xidian/model/Student.java" />
@@ -994,15 +984,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="0">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../spring_ioc/spring-core-5.0.2.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../spring_ioc/spring-core-5.0.2.RELEASE.jar!/org/springframework/cglib/proxy/Callback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../spring_ioc/spring-core-5.0.2.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="124" column="32" lean-forward="false" selection-start-line="124" selection-start-column="32" selection-end-line="124" selection-end-column="32" />
+          <folding>
+            <element signature="e#5271#5272#0" expanded="true" />
+            <element signature="e#5330#5331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="240">
           <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="e#104#105#0" expanded="true" />
@@ -1013,43 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/IUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#83#84#0" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
@@ -1058,6 +1058,24 @@
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/service/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day03-spring/src/edu/xidian/test/lesson05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
