@@ -73,11 +73,14 @@ public class MyBeanFactory {
                  */
 
                 System.out.println(methodProxy);
-
+                //System.out.println(proxy);
                 aspect.before();
-                //放行方法
-                Object retObj = method.invoke(studentService,args);
+                //执行目标类的方法
+                //Object retObj = method.invoke(studentService,args);
+                //执行代理类的方法（目标类和代理类是父子关系）
+                Object retObj = methodProxy.invokeSuper(proxy,args);//解耦
                 System.out.println("拦截。。。");
+
 
                 aspect.after();
                 return retObj;

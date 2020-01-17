@@ -13,8 +13,8 @@ public class lesson05 {
         StudentService ss= MyBeanFactory.createstudentService();
         ss.delete();
 
-        ss.update();
+       // ss.update();
 
-        ss.add();
+       // ss.add();
     }
 }
