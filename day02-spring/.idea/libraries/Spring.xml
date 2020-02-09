@@ -2,11 +2,11 @@
   <library name="Spring" type="spring">
     <CLASSES>
       <root url="jar://D:/Develop/Java/Spring3.2/com.springsource.org.apache.commons.logging-1.1.1.jar!/" />
-      <root url="jar://D:/Develop/Java/Spring3.2/spring-core-3.2.0.RC2.jar!/" />
       <root url="jar://D:/Develop/Java/Spring3.2/spring-aop-3.2.0.RC2.jar!/" />
       <root url="jar://D:/Develop/Java/Spring3.2/spring-context-3.2.0.RC2.jar!/" />
-      <root url="jar://D:/Develop/Java/Spring3.2/spring-expression-3.2.0.RC2.jar!/" />
       <root url="jar://D:/Develop/Java/Spring3.2/spring-beans-3.2.0.RC2.jar!/" />
+      <root url="jar://D:/Develop/Java/Spring3.2/spring-core-3.2.0.RC2.jar!/" />
+      <root url="jar://D:/Develop/Java/Spring3.2/spring-expression-3.2.0.RC2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
