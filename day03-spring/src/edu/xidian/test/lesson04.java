@@ -1,7 +1,7 @@
 package edu.xidian.test;
 
 import edu.xidian.service.IUserService;
-import edu.xidian.service.MyBeanFactory;
+import edu.xidian.factory.MyBeanFactory;
 import org.junit.Test;
 
 public class lesson04 {

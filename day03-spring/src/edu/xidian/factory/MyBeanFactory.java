@@ -1,5 +1,9 @@
-package edu.xidian.service;
+package edu.xidian.factory;
 
+import edu.xidian.aspect.MyAspect2;
+import edu.xidian.service.IUserService;
+import edu.xidian.service.IUserServiceImpl;
+import edu.xidian.service.StudentService;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
@@ -17,7 +21,7 @@ public class MyBeanFactory {
         //1.创建目标对象target
         final IUserService userService=new IUserServiceImpl();
         //2.声明切面类对象
-        MyAspect aspect=new MyAspect();//1.8之后默认加final
+        MyAspect2 aspect=new MyAspect2();//1.8之后默认加final
 
         //3.把切面类2个方法 应用 目标类
         //3.1创建JDK代理
@@ -57,7 +61,7 @@ public class MyBeanFactory {
         //1.创建目标对象target
         final StudentService studentService=new StudentService();
         //2.声明切面类对象
-        MyAspect aspect=new MyAspect();//1.8之后默认加final
+        MyAspect2 aspect=new MyAspect2();//1.8之后默认加final
         //3.创建增强对象
         Enhancer enhancer=new Enhancer();
         //设置父类
@@ -80,8 +84,8 @@ public class MyBeanFactory {
                 //执行代理类的方法（目标类和代理类是父子关系）
                 Object retObj = methodProxy.invokeSuper(proxy,args);//解耦
                 System.out.println("拦截。。。");
-
-
+                System.out.println(proxy);
+                System.out.println(methodProxy);
                 aspect.after();
                 return retObj;
             }

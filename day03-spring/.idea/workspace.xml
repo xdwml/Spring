@@ -2,28 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7988de8e-a717-4c20-8dc3-1df9fc1c9edf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beans07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beans08.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day03-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03-spring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beans01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/service/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/service/MyBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/factory/MyBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/test/lesson04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/test/lesson05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="day03-spring" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XZ63K7hxHIejP8L3U0WUf2Xvls" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.xidian.test" />
+      <recent name="edu.xidian.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\Spring\day03-spring\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.lesson08.test1">
+    <configuration name="lesson05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.xidian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.xidian.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson05" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson07.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.xidian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.xidian.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson07" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson08.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day03-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.xidian.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.xidian.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson08" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.lesson08.test1" />
+        <item itemvalue="JUnit.lesson07.test1" />
+        <item itemvalue="JUnit.lesson05" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581241068795</updated>
       <workItem from="1581241070278" duration="1286000" />
+      <workItem from="1583648223293" duration="9316000" />
     </task>
     <servers />
   </component>
@@ -43,9 +162,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1581249974789">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2507" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1583652129842">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="2507" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583652129842" />
+    <state x="2017" y="175" key="FileChooserDialogImpl" timestamp="1583656953266">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583656953266" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581249974789" />
+    <state width="1111" height="285" key="GridCell.Tab.0.bottom" timestamp="1583658499438">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="285" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658499438" />
+    <state width="1111" height="285" key="GridCell.Tab.0.center" timestamp="1583658499437">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="285" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658499437" />
+    <state width="1111" height="285" key="GridCell.Tab.0.left" timestamp="1583658499437">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="285" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658499437" />
+    <state width="1111" height="285" key="GridCell.Tab.0.right" timestamp="1583658499438">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="285" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658499438" />
+    <state width="1111" height="352" key="GridCell.Tab.1.bottom" timestamp="1583658430899">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="352" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658430899" />
+    <state width="1111" height="352" key="GridCell.Tab.1.center" timestamp="1583658430899">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="352" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658430899" />
+    <state width="1111" height="352" key="GridCell.Tab.1.left" timestamp="1583658430899">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="352" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658430899" />
+    <state width="1111" height="352" key="GridCell.Tab.1.right" timestamp="1583658430899">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1111" height="352" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583658430899" />
+    <state x="2182" y="113" key="SettingsEditor" timestamp="1583656954998">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2182" y="113" key="SettingsEditor/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583656954998" />
+    <state x="2401" y="432" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583648358091">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2401" y="432" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583648358091" />
+    <state x="2365" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1583657670427">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2365" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583657670427" />
+    <state x="2382" y="222" key="spring file set editor" timestamp="1583656216886">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2382" y="222" key="spring file set editor/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583656216886" />
   </component>
 </project>

@@ -1,8 +1,6 @@
 package edu.xidian.test;
 
-import edu.xidian.service.IUserService;
-import edu.xidian.service.MyAspect;
-import edu.xidian.service.MyBeanFactory;
+import edu.xidian.factory.MyBeanFactory;
 import edu.xidian.service.StudentService;
 import org.junit.Test;
 
