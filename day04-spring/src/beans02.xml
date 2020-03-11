@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xmlns xml namespace:xml命名空间-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p ="http://www.springframework.org/schema/p"
+       xmlns:context ="http://www.springframework.org/schema/context"
+       xmlns:aop ="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--创建UserService-->
+        <bean id="userService" class="edu.xidian.service.IUserServiceImpl"></bean>
+    <!--配置切面对象-->
+        <bean id="myAspect" class="edu.xidian.aspect.MyAspect"></bean>
+    
+    <!--配置aop-->
+        <aop:config>
+            <!--aop：指定切面-->
+            <aop:aspect ref="myAspect">
+                <!--定义一个切入点-->
+                <aop:pointcut id="myPointcut" expression="execution(* edu.xidian.service.IUserServiceImpl.*(..))"/>
+                <!--配置前置通知-->
+                <aop:before method="myBefore" pointcut-ref="myPointcut"></aop:before>
+                <!--配置后置通知-->
+                <aop:after-returning method="myAfterReturning" pointcut-ref="myPointcut" ></aop:after-returning>
+                <!--配置环绕通知-->
+                <aop:around method="myAround" pointcut-ref="myPointcut"></aop:around>
+                <!--配置异常通知-->
+                <!--<aop:after-throwing method="myAfterThrowing" pointcut-ref="myPointcut" throwing="e"/>-->
+                <!--配置最终通知:不管有无异常，最终通知都会执行-->
+                <aop:after method="myAfter" pointcut-ref="myPointcut"></aop:after>
+            </aop:aspect>
+        </aop:config>
+
+
+</beans>

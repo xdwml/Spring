@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7988de8e-a717-4c20-8dc3-1df9fc1c9edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/META-INF/day03-spring.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/beans01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/aspect/MyAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/dao/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/service/IUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/service/IUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/test/lesson01.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/day03-spring/edu/xidian/web/action/UserAction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beans01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/IUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/web/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day03-spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03-spring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beans02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,18 +49,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.xidian.aspect" />
       <recent name="edu.xidian.test" />
+      <recent name="edu.xidian.aspect" />
       <recent name="edu.xidian.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\Spring\day04-spring\src" />
       <recent name="E:\IDEA\Spring\day03-spring\src" />
     </key>
   </component>
@@ -210,6 +180,7 @@
       <workItem from="1583648223293" duration="11264000" />
       <workItem from="1583763122232" duration="116000" />
       <workItem from="1583763547831" duration="3356000" />
+      <workItem from="1583849791955" duration="1070000" />
     </task>
     <servers />
   </component>
