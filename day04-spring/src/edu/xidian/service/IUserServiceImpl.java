@@ -3,7 +3,7 @@ package edu.xidian.service;
 import org.springframework.stereotype.Service;
 
 //案例4
-@Service("myUserService")  //表示Service层
+@Service("userService")  //表示Service层
 public class IUserServiceImpl implements IUserService {
 
     @Override

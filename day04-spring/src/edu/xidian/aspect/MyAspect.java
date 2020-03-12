@@ -2,13 +2,19 @@ package edu.xidian.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
 
 /**
  * 切面类：增强代码，与切入点结合
  */
+@Component
+@Aspect
 public class MyAspect {
-
+    @Before("execution(* edu.xidian.service.IUserServiceImpl.*(..))")
     public void myBefore(JoinPoint jp){
         System.out.println("1.前置通知。。。"+jp.getSignature().getName());//连接点方法名
     }
@@ -18,6 +24,7 @@ public class MyAspect {
      * Object retValue:service方法执行的返回值
      * @param jp
      */
+   // @AfterReturning(pointcut = "execution(* edu.xidian.service.IUserServiceImpl.*(..))",returning = "retValue")
     public void myAfterReturning(JoinPoint jp){
         System.out.println("3.后置通知。。。"+jp.getSignature().getName());
        // System.out.println("返回值："+retValue);

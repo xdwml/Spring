@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7988de8e-a717-4c20-8dc3-1df9fc1c9edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beans02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/xidian/test/lesson02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beans02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/xidian/service/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/service/IUserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="E:\IDEA\Spring\day03-spring\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.lesson01.test1">
+  <component name="RunManager" selected="JUnit.lesson02">
     <configuration name="lesson01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03-spring" />
       <extension name="coverage">
@@ -97,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day03-spring" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.xidian.test" />
-      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson05" />
+      <option name="MAIN_CLASS_NAME" value="edu.xidian.test.lesson02" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.lesson02" />
         <item itemvalue="JUnit.lesson01.test1" />
         <item itemvalue="JUnit.lesson01" />
         <item itemvalue="JUnit.lesson08.test1" />
         <item itemvalue="JUnit.lesson07.test1" />
-        <item itemvalue="JUnit.lesson05" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +182,7 @@
       <workItem from="1583763122232" duration="116000" />
       <workItem from="1583763547831" duration="3356000" />
       <workItem from="1583849791955" duration="1070000" />
+      <workItem from="1584023212659" duration="1343000" />
     </task>
     <servers />
   </component>
@@ -201,22 +203,22 @@
     </state>
     <state x="2017" y="175" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583676555913" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581249974789" />
-    <state width="1589" height="377" key="GridCell.Tab.0.bottom" timestamp="1583766920046">
+    <state width="990" height="377" key="GridCell.Tab.0.bottom" timestamp="1584024582239">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1589" height="377" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583766920046" />
-    <state width="1589" height="377" key="GridCell.Tab.0.center" timestamp="1583766920046">
+    <state width="990" height="377" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584024582239" />
+    <state width="990" height="377" key="GridCell.Tab.0.center" timestamp="1584024582239">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1589" height="377" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583766920046" />
-    <state width="1589" height="377" key="GridCell.Tab.0.left" timestamp="1583766920045">
+    <state width="990" height="377" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584024582239" />
+    <state width="990" height="377" key="GridCell.Tab.0.left" timestamp="1584024582239">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1589" height="377" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583766920045" />
-    <state width="1589" height="377" key="GridCell.Tab.0.right" timestamp="1583766920046">
+    <state width="990" height="377" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584024582239" />
+    <state width="990" height="377" key="GridCell.Tab.0.right" timestamp="1584024582239">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1589" height="377" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1583766920046" />
+    <state width="990" height="377" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1080@1366.0.1920.1080" timestamp="1584024582239" />
     <state width="1111" height="352" key="GridCell.Tab.1.bottom" timestamp="1583678131306">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
