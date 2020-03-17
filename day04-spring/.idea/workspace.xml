@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7988de8e-a717-4c20-8dc3-1df9fc1c9edf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beans02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beans02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/aspect/MyAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/xidian/service/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/xidian/service/IUserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +180,7 @@
       <workItem from="1583763547831" duration="3356000" />
       <workItem from="1583849791955" duration="1070000" />
       <workItem from="1584023212659" duration="1343000" />
+      <workItem from="1584104142205" duration="862000" />
     </task>
     <servers />
   </component>
